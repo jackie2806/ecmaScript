@@ -43,14 +43,7 @@ function solution(json1 = {
    }
 
    
-/* console.log(solution({
-    name: "Mr. Michi",
-    food: "Pescado"
-}, {
-    age: 12,
-    color: "Blanco"
-}
-)) */
+
 
 function sum (a,b = 5){
     console.log('a', a);
@@ -65,3 +58,23 @@ function sum (a,b = 5){
 }
 
 console.log(sum(3));
+
+//solución al reto
+function solution(json1 = {
+    name: "Mr. Michi",
+    food: "Pescado"
+  }, json2 = {
+    age: 12,
+    color: "Blanco"
+  }) {
+   return {...json1, ...json2}
+  }
+  
+  /* console.log(solution({
+    name: "Mr. Michi",
+    food: "Pescado"
+}, {
+    age: 12,
+    color: "Blanco"
+}
+)) */
