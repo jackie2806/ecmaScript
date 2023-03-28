@@ -70,7 +70,7 @@ function solution(json1 = {
    return {...json1, ...json2}
   }
   
-  /* console.log(solution({
+/* console.log(solution({
     name: "Mr. Michi",
     food: "Pescado"
 }, {
